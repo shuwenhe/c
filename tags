@@ -1,0 +1,129 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AllDirs	file/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+AllDirs	point/11.4/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+AllDirs	point/11.6/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+AllDirs	point/6.10/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+AllDirs	point/6.12/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+AllDirs	point/6.8/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+AllDirs	point/7.5.2/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+AllDirs	point/Makefile	/^AllDirs := $(shell ls -R | grep '^\\.\/.*:$$' | awk '{gsub(":","");print}') . $/;"	m
+Bin	file/Makefile	/^Bin := o$/;"	m
+Bin	point/11.4/Makefile	/^Bin := o$/;"	m
+Bin	point/11.6/Makefile	/^Bin := o$/;"	m
+Bin	point/6.10/Makefile	/^Bin := o$/;"	m
+Bin	point/6.12/Makefile	/^Bin := o$/;"	m
+Bin	point/6.8/Makefile	/^Bin := o$/;"	m
+Bin	point/7.5.2/Makefile	/^Bin := o$/;"	m
+Bin	point/Makefile	/^Bin := o$/;"	m
+CC	file/Makefile	/^CC = gcc $/;"	m
+CC	point/11.4/Makefile	/^CC = gcc $/;"	m
+CC	point/11.6/Makefile	/^CC = gcc $/;"	m
+CC	point/6.10/Makefile	/^CC = gcc $/;"	m
+CC	point/6.12/Makefile	/^CC = gcc $/;"	m
+CC	point/6.8/Makefile	/^CC = gcc $/;"	m
+CC	point/7.5.2/Makefile	/^CC = gcc $/;"	m
+CC	point/Makefile	/^CC = gcc $/;"	m
+CPPFLAGS	file/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CPPFLAGS	point/11.4/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CPPFLAGS	point/11.6/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CPPFLAGS	point/6.10/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CPPFLAGS	point/6.12/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CPPFLAGS	point/6.8/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CPPFLAGS	point/7.5.2/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CPPFLAGS	point/Makefile	/^CPPFLAGS = $(foreach n,$(AllDirs) , -I$(n)) $/;"	m
+CXX	file/Makefile	/^CXX = g++ $/;"	m
+CXX	point/11.4/Makefile	/^CXX = g++ $/;"	m
+CXX	point/11.6/Makefile	/^CXX = g++ $/;"	m
+CXX	point/6.10/Makefile	/^CXX = g++ $/;"	m
+CXX	point/6.12/Makefile	/^CXX = g++ $/;"	m
+CXX	point/6.8/Makefile	/^CXX = g++ $/;"	m
+CXX	point/7.5.2/Makefile	/^CXX = g++ $/;"	m
+CXX	point/Makefile	/^CXX = g++ $/;"	m
+CXXFLAGS	file/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+CXXFLAGS	point/11.4/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+CXXFLAGS	point/11.6/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+CXXFLAGS	point/6.10/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+CXXFLAGS	point/6.12/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+CXXFLAGS	point/6.8/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+CXXFLAGS	point/7.5.2/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+CXXFLAGS	point/Makefile	/^CXXFLAGS = -g -Wall $/;"	m
+Deps	file/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+Deps	point/11.4/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+Deps	point/11.6/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+Deps	point/6.10/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+Deps	point/6.12/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+Deps	point/6.8/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+Deps	point/7.5.2/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+Deps	point/Makefile	/^Deps := $(patsubst %.c,%.d, $(Sources)) $/;"	m
+DynamicLib	file/Makefile	/^DynamicLib := libyy.so $/;"	m
+DynamicLib	point/11.4/Makefile	/^DynamicLib := libyy.so $/;"	m
+DynamicLib	point/11.6/Makefile	/^DynamicLib := libyy.so $/;"	m
+DynamicLib	point/6.10/Makefile	/^DynamicLib := libyy.so $/;"	m
+DynamicLib	point/6.12/Makefile	/^DynamicLib := libyy.so $/;"	m
+DynamicLib	point/6.8/Makefile	/^DynamicLib := libyy.so $/;"	m
+DynamicLib	point/7.5.2/Makefile	/^DynamicLib := libyy.so $/;"	m
+DynamicLib	point/Makefile	/^DynamicLib := libyy.so $/;"	m
+HELL	file/Makefile	/^HELL = \/bin\/bash$/;"	m
+HELL	point/11.4/Makefile	/^HELL = \/bin\/bash$/;"	m
+HELL	point/11.6/Makefile	/^HELL = \/bin\/bash$/;"	m
+HELL	point/6.10/Makefile	/^HELL = \/bin\/bash$/;"	m
+HELL	point/6.12/Makefile	/^HELL = \/bin\/bash$/;"	m
+HELL	point/6.8/Makefile	/^HELL = \/bin\/bash$/;"	m
+HELL	point/7.5.2/Makefile	/^HELL = \/bin\/bash$/;"	m
+HELL	point/Makefile	/^HELL = \/bin\/bash$/;"	m
+LDFLAGS	file/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+LDFLAGS	point/11.4/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+LDFLAGS	point/11.6/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+LDFLAGS	point/6.10/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+LDFLAGS	point/6.12/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+LDFLAGS	point/6.8/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+LDFLAGS	point/7.5.2/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+LDFLAGS	point/Makefile	/^LDFLAGS = -lstdc++ $/;"	m
+Objs	file/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+Objs	point/11.4/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+Objs	point/11.6/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+Objs	point/6.10/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+Objs	point/6.12/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+Objs	point/6.8/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+Objs	point/7.5.2/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+Objs	point/Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
+RM	file/Makefile	/^RM = rm -f $/;"	m
+RM	point/11.4/Makefile	/^RM = rm -f $/;"	m
+RM	point/11.6/Makefile	/^RM = rm -f $/;"	m
+RM	point/6.10/Makefile	/^RM = rm -f $/;"	m
+RM	point/6.12/Makefile	/^RM = rm -f $/;"	m
+RM	point/6.8/Makefile	/^RM = rm -f $/;"	m
+RM	point/7.5.2/Makefile	/^RM = rm -f $/;"	m
+RM	point/Makefile	/^RM = rm -f $/;"	m
+Sources	file/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+Sources	point/11.4/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+Sources	point/11.6/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+Sources	point/6.10/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+Sources	point/6.12/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+Sources	point/6.8/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+Sources	point/7.5.2/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+Sources	point/Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
+StaticLib	file/Makefile	/^StaticLib := libyy.a $/;"	m
+StaticLib	point/11.4/Makefile	/^StaticLib := libyy.a $/;"	m
+StaticLib	point/11.6/Makefile	/^StaticLib := libyy.a $/;"	m
+StaticLib	point/6.10/Makefile	/^StaticLib := libyy.a $/;"	m
+StaticLib	point/6.12/Makefile	/^StaticLib := libyy.a $/;"	m
+StaticLib	point/6.8/Makefile	/^StaticLib := libyy.a $/;"	m
+StaticLib	point/7.5.2/Makefile	/^StaticLib := libyy.a $/;"	m
+StaticLib	point/Makefile	/^StaticLib := libyy.a $/;"	m
+compare_integers	point/11.6/malloc.c	/^int compare_integers(void const *a, void const *b)$/;"	f
+factorial	point/7.5.2/factorial.c	/^long factorial(int n)$/;"	f
+main	file/file.c	/^int main()$/;"	f
+main	point/11.4/malloc.c	/^int main()$/;"	f
+main	point/11.6/malloc.c	/^int main()$/;"	f
+main	point/6.1.c	/^int main()$/;"	f
+main	point/6.10/6.10.c	/^int main()$/;"	f
+main	point/6.12/strlen.c	/^int main()$/;"	f
+main	point/6.8/6.8.c	/^int main()$/;"	f
+main	point/7.5.2/factorial.c	/^int main()$/;"	f
+strlen	point/6.12/strlen.c	/^size_t strlen(char *str)$/;"	f
