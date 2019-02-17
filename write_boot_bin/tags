@@ -18,9 +18,13 @@ Objs	Makefile	/^Objs := $(patsubst %.c,%.o, $(Sources)) $/;"	m
 RM	Makefile	/^RM = rm -f $/;"	m
 Sources	Makefile	/^Sources := $(foreach n,$(AllDirs) , $(wildcard $(n)\/*.c)) $/;"	m
 StaticLib	Makefile	/^StaticLib := libyy.a $/;"	m
-buffer	write_boot_bin.c	/^unsigned char buffer[512];$/;"	v
-dev_desc	write_boot_bin.c	/^int dev_desc, fd;$/;"	v
-fd	write_boot_bin.c	/^int dev_desc, fd;$/;"	v
-main	write_boot_bin.c	/^int main()$/;"	f
-open_file	write_boot_bin.c	/^void open_file()$/;"	f
-read_file	write_boot_bin.c	/^void read_file()$/;"	f
+buffer	include/main.h	/^unsigned char buffer[512];$/;"	v
+close_dev	dev/dev.c	/^void close_dev()$/;"	f
+close_file	file/file.c	/^void close_file()$/;"	f
+dd	dev/dev.c	/^int dd;$/;"	v
+fd	file/file.c	/^int fd;$/;"	v
+main	main.c	/^int main()$/;"	f
+open_dev	dev/dev.c	/^void open_dev()$/;"	f
+open_file	file/file.c	/^void open_file()$/;"	f
+read_file	file/file.c	/^void read_file()$/;"	f
+write_dev	dev/dev.c	/^void write_dev()$/;"	f
