@@ -1,1 +1,1 @@
-g++ user.c -o shuwen -L/usr/local/lib -ljson-c -lmysqlclient
+g++ user.c -o shuwen-service -L/usr/local/lib -ljson-c -lmysqlclient
