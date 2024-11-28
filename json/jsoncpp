@@ -1,3 +1,1 @@
-g++ user.cpp -o user -lmysqlclient -I/usr/include/jsoncpp
-g++ user.cpp -o user -lmysqlclient -ljsoncpp
-g++ user.cpp -o shuwen-service -I/usr/include/jsoncpp -ljsoncpp -lmysqlclient
+g++ user.c -o shuwen -L/usr/local/lib -ljson-c -lmysqlclient
